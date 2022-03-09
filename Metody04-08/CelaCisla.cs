@@ -38,5 +38,36 @@ namespace Metody04_08
 
             return faktorial;
         }
+
+        public static bool JePrvocislo(int n)
+        {
+            bool je = true;
+            if (n == 1) //Jednička není prvočíslo
+            {
+                je = false;
+            }
+            else if (n == 2) //Dvojka je jediné sudé prvočíslo
+            {
+                je = true;
+            }
+            else if (n % 2 != 0) //Sudá čísla nikdy nejsou prvočísla
+            {
+                int i = 3;
+                while (i < (n / 2) - 1 && je)
+                {
+                    if (n % i == 0)
+                    {
+                        je = false;
+                    }
+                    i += 2;
+                }
+            }
+            else
+            {
+                je = false;
+            }
+
+            return je;
+        }
     }
 }

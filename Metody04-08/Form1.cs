@@ -32,14 +32,23 @@ namespace Metody04_08
             MessageBox.Show("Faktoriál se rovná: " + CelaCisla.Faktorial(x));
         }
 
-        private void button_JePrvocislo_Click(object sender, EventArgs e)
+        private void button_CifLichSoucet_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button_CifLichSoucet_Click(object sender, EventArgs e)
+        private void button_JePrvocislo_Click(object sender, EventArgs e)
         {
+            int n = int.Parse(textBox5.Text);
 
+            if(CelaCisla.JePrvocislo(n))
+            {
+                MessageBox.Show("Ano, je prvočíslo");
+            }
+            else
+            {
+                MessageBox.Show("Ne, není prvočíslo");
+            }
         }
 
         private void button_PocetDeliteluSud_Click(object sender, EventArgs e)
