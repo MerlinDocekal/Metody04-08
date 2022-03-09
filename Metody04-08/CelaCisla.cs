@@ -39,6 +39,22 @@ namespace Metody04_08
             return faktorial;
         }
 
+        public static int CifLichSoucet(int cislo)
+        {
+            int soucetLichCif = 0;
+            while(cislo > 0)
+            {
+                int cifra = cislo % 10;
+                if(cifra % 2 != 0)
+                {
+                    soucetLichCif += cifra;
+                }
+                cislo /= 10;
+            }
+
+            return soucetLichCif;
+        }
+
         public static bool JePrvocislo(int n)
         {
             bool je = true;
