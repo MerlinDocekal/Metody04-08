@@ -85,5 +85,19 @@ namespace Metody04_08
 
             return je;
         }
+
+        public static int PocetDeliteluSud(int cislo)
+        {
+            int pocetSudDelitelu = 0;
+            for(int i = 2; i <= cislo; i += 2)
+            {
+                if (cislo % i == 0)
+                {
+                    pocetSudDelitelu++;
+                }
+            }
+
+            return pocetSudDelitelu;
+        }
     }
 }

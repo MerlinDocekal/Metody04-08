@@ -55,7 +55,9 @@ namespace Metody04_08
 
         private void button_PocetDeliteluSud_Click(object sender, EventArgs e)
         {
+            int cislo = int.Parse(textBox6.Text);
 
+            MessageBox.Show("Počet sudých dělitelů je " + CelaCisla.PocetDeliteluSud(cislo));
         }
     }
 }
