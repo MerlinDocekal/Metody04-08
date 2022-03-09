@@ -27,7 +27,9 @@ namespace Metody04_08
 
         private void button_Faktorial_Click(object sender, EventArgs e)
         {
+            int x = int.Parse(textBox3.Text);
 
+            MessageBox.Show("Faktoriál se rovná: " + CelaCisla.Faktorial(x));
         }
 
         private void button_JePrvocislo_Click(object sender, EventArgs e)

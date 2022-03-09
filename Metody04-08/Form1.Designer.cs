@@ -57,6 +57,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(29, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "2";
             // 
             // textBox2
             // 
@@ -64,6 +65,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(29, 20);
             this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "-3";
             // 
             // button_Faktorial
             // 
@@ -111,6 +113,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(29, 20);
             this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "5";
             // 
             // textBox4
             // 
@@ -118,6 +121,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(57, 20);
             this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "1234";
             // 
             // textBox5
             // 
@@ -132,6 +136,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(116, 20);
             this.textBox6.TabIndex = 10;
+            this.textBox6.Text = "10";
             // 
             // Form1
             // 
